@@ -8,9 +8,9 @@ def create_app(test_config=None,):
     CORS(app)
 
 
-    from app.api import render
+    from app.api import pages
 
-    app.register_blueprint(render.bp)
+    app.register_blueprint(pages.bp)
 
 
     @app.errorhandler(400)

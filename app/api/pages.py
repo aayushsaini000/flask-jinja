@@ -3,14 +3,12 @@ from flask import (
 )
 from flask import Flask, render_template
 
-bp = Blueprint('render', __name__, url_prefix='/')
+bp = Blueprint('pages', __name__, url_prefix='/')
 
 
 @bp.route('/user/<username>')
 def index(username):
     return render_template('index.html', username=username)
-
-
 
 
 @bp.route("/home")
