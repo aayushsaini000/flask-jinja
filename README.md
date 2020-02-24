@@ -27,7 +27,7 @@ App will be run by default on http://127.0.0.1:5000/
 
 You can test app demo template on this route
 
-1> http://127.0.0.1:5000/user/username
-2> http://127.0.0.1:5000/page1
+> http://127.0.0.1:5000/user/username
+> http://127.0.0.1:5000/page1
 
 
